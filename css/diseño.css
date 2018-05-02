@@ -1,0 +1,96 @@
+@font-face{
+	font-family: Marseline;
+	src:url(../fonts/Marseline.ttf);
+}
+#lista1{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	overflow: hidden;/*Pendiente*/
+	text-align: center;
+}
+	li a{
+float: left;/*pendiente*/
+padding: 20px 66px;
+display: block;/*Pendiente*/
+color: blue;
+text-decoration:none;
+background-color: #FFDAB9 ;
+width: 158px;
+
+}
+li a:hover{
+	background-color: #01AAC1;
+}
+h1,h2{
+	font-family: "Century Gothic";
+	font-size: 35px;
+	color: #F08080 ;
+	text-align: center;
+
+
+}
+
+p{
+	font-family: "Arial";
+	font-size: 25px; 
+}
+footer{
+	clear: both;
+	background-color:  #FFDAB9;
+	text-align: center;
+	padding: 25px;
+}
+img{
+	padding-right: 20px;
+}
+/* categorias*/
+
+table{
+	font-size: 30px;
+	text-align: center;
+	color: blue;
+	padding: 50px;
+	}
+tr{
+	padding: 50px;
+	text-align: center;
+}
+td{
+	padding: 50px;
+	text-align: center;
+}
+h1{
+padding: 50px;
+margin: 40px;
+}
+figure{
+	display: inline-block;
+	margin: 40px;
+	}
+	figure img{
+	vertical-align: top;
+}
+.Menu:hover{
+justify-content: center;
+transform:scale(1.5); 
+}
+figure figcaption{
+	clear:both;
+	text-align: center;
+}
+/*mujeres 3-12*/
+figure{
+	display: inline-block;
+	margin: 30px;
+	float: left;
+}
+figure img{
+	vertical-align: top;
+}
+.videos{
+	justify-content: center;
+	transform: scale(1.5);
+	margin: 60px;
+	
+}
